@@ -31,6 +31,31 @@ textarea {
   }
 }
 
+/*header*/
+.navbar-inverse {
+  background-color: #339966;
+  border: none;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: lightgray;
+}
+
+/*button*/
+.btn-primary {
+  background-color: rgb(255, 153, 51);
+  border: none;
+}
+.btn-primary:hover {
+  background-color: rgb(204, 122, 0);
+}
+.btn-primary:active:focus {
+  background-color: rgb(204, 122, 0);
+}
+
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
